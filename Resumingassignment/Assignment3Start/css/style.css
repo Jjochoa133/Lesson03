@@ -28,6 +28,32 @@ a:hover{
 h1{
     font-size: 100px;
     line-height: 1.5;
+    text-shadow: 4px 4px 4px rgb(7, 7, 7);
+}
+#text3d{
+    color: #ffffff;
+    letter-spacing: .15em;
+    text-shadow: 
+      -1px -1px 1px #efede3, 
+      0px 1px 0 #2e2e2e, 
+      0px 2px 0 #2c2c2c, 
+      0px 3px 0 #2a2a2a, 
+      0px 4px 0 #282828, 
+      0px 5px 0 #262626, 
+      0px 6px 0 #242424, 
+      0px 7px 0 #222, 
+      0px 8px 0 #202020, 
+      0px 9px 0 #1e1e1e, 
+      0px 10px 0 #1c1c1c, 
+      0px 11px 0 #1a1a1a, 
+      0px 12px 0 #181818, 
+      0px 13px 0 #161616, 
+      0px 14px 0 #141414, 
+      0px 15px 0 #121212,
+      2px 20px 5px rgba(0, 0, 0, 0.9),
+      5px 23px 5px rgba(0, 0, 0, 0.3),
+      8px 27px 8px rgba(0, 0, 0, 0.5),
+      8px 28px 35px rgba(0, 0, 0, 0.9);
 }
 h2{
     margin: 0;
@@ -70,6 +96,7 @@ h3{
 header {
     background:rgb(43, 43, 83);
     color:rgb(238, 238, 238);
+    text-shadow: 4px 4px 4px rgb(8, 8, 8);
 }
 
 /*Projects
@@ -77,7 +104,15 @@ header {
 
 .projects{
     background:rgb(96, 144, 189);
-    color:black;
+    color:rgb(255, 255, 255);
+}
+
+.projects h2{
+    text-shadow: 4px 4px 4px rgb(8, 8, 8);
+}
+
+.projects h3{
+    text-shadow: 4px 4px 4px rgb(8, 8, 8);
 }
 .projects a {
     color:rgb(46, 46, 63);
@@ -106,8 +141,14 @@ header {
     background-size:cover;
     background-position:top right;
     padding-bottom: 100px;
-    color:black;
+    color:rgb(0, 0, 0);
 }
+
+.work-experience h2{
+    text-shadow: 4px 4px 4px rgb(70, 69, 69);
+}
+
+
 
 
 /*Education
@@ -118,8 +159,14 @@ header {
     background-size:cover;
     background-position:top right;
     padding-bottom:100px;
-    color:black;
+    color:rgb(0, 0, 0);
 }
+
+.education h2{
+    text-shadow: 4px 4px 4px rgb(70, 69, 69);
+}
+
+
 .education p {
     width:60%;
 }
